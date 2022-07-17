@@ -1,0 +1,51 @@
+h2
+{
+    color: #2c3e50 !important;
+    font-size: 60px !important ;
+}
+.portoItem
+{
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+.layer
+{
+    opacity: 0;
+    transition: all 0.3s;
+
+}
+.layer:hover
+{
+    background-color: #1abc9c;
+    opacity: 0.9;
+    transition: all 0.3s;
+    
+}
+i
+{
+    font-size: 60px;
+    color: white;
+}
+.itemselected
+{
+    z-index: 9999999999999999999999999999999999;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+    display: none;
+}
+.ImageIcon
+{
+    position: absolute;
+    cursor: pointer;
+    color: red;
+    right: 0;
+    top: 0;
+
+  
+    
+}
